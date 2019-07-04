@@ -15,7 +15,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "test:coverage": "jest --coverage"
   },
   "author": "Pavel Shlykov",
   "license": "ISC",
