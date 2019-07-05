@@ -16,13 +16,17 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --runInBand"
   },
   "author": "Pavel Shlykov",
   "license": "ISC",
   "jest": {
     "verbose": true,
     "collectCoverage": true,
+    "coverageReporters": [
+      "text",
+      "cobertura"
+    ],
     "moduleDirectories": [
       "node_modules",
       "app"
