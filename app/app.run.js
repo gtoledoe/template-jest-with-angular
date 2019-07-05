@@ -1,4 +1,4 @@
-(function () {
+/*(function () {
 
     angular
         .module('myApp')
@@ -11,4 +11,4 @@
             });
         });
 
-})();
+})();*/
